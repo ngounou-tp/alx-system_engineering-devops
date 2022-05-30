@@ -1,2 +1,2 @@
 #!/bin/bash
-cat "Hello world" > hello.txt
+echo $"Hello world" > hello.txt
