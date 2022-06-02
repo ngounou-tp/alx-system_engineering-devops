@@ -1,0 +1,2 @@
+#!/bin/bash 
+$WATER | tr water 01234; $STIR | tr stir 012345; printf "%o" $((5#$WATER + 5#$STIIR)) | tr 01234567 bestchol 
