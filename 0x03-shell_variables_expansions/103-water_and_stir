@@ -1,2 +1,2 @@
 #!/bin/bash 
-tr waterstirbestchol 012340123401234567 | printf "%o" $((5#$WATER + 5#$STIIR)) 
+tr waterstirbestchol 012340123401234567 | echo printf "%o" $((5#$WATER + 5#$STIIR)) 
